@@ -16,6 +16,11 @@
 			<artifactId>microservicecloud-api</artifactId>
 			<version>${project.version}</version>
 		</dependency>
+		<dependency><!-- 自己定义的api -->
+			<groupId>com.lb.springcloud</groupId>
+			<artifactId>microservicecloud-user-api</artifactId>
+			<version>${project.version}</version>
+		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
@@ -38,6 +43,12 @@
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-netflix-ribbon</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>com.alibaba</groupId>
+			<artifactId>fastjson</artifactId>
+			<version>1.2.44</version>
 		</dependency>
 	</dependencies>
 

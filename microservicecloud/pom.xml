@@ -17,6 +17,9 @@
 
 	<modules>
 		<module>microservicecloud-api</module>
+		<module>microservicecloud-user-api</module>
+
+
 		<module>microservicecloud-provider-dept-8001</module>
 		<module>microservicecloud-provider-dept-hystrix-8001</module>
 		<module>microservicecloud-provider-dept-8002</module>
@@ -24,17 +27,26 @@
 
 		<module>microservicecloud-consumer-dept-80</module>
 		<module>microservicecloud-consumer-dept-feign</module>
+		<module>microservicecloud-consumer-hystrix-dashboard</module>
+
+
+		<module>microservicecloud-zuul-gateway9527</module>
 
 		<module>microservicecloud-eureka7001</module>
 		<module>microservicecloud-eureka7002</module>
 		<module>microservicecloud-eureka7003</module>
+
+		<module>microservicecloud-provider-user-9001</module>
+
+		<module>microservicecloud-config3344</module>
+
 	</modules>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<java.version>1.8</java.version>
-		<spring-cloud.version>Finchley.RC2</spring-cloud.version>
+		<spring-cloud.version>Finchley.RC1</spring-cloud.version>
 		<admin-server.version>2.0.0</admin-server.version>
 		<mybatis-plus-boot-starter.version>2.1.9</mybatis-plus-boot-starter.version>
 		<mybatis-spring-boot-starter.version>1.3.0</mybatis-spring-boot-starter.version>
